@@ -1,12 +1,9 @@
 # This workflow contains steps which execute when template is converted to a repository
-
 name: template-deploy
-
 on:
   create:
     ref: main
     ref_type: branch
-
 permissions:
   contents: write
   issues: write
